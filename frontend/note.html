@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Gamja+Flower&display=swap" rel="stylesheet"></head>
+  <title>Noteapp</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Wejapa Noteapp</h1>
+        <h2 class="undertext">So fresh and so clean</h2>
+  </header>
+
+  <div class="note">
+    <button type="button" class="edit-note-btn">Edit</button>
+    <button type="button" class="delete-btn">Delete</button>
+    <div class="add-form">
+        <form id="form">
+            <h4>Edit your notes</h4>
+            <input type="text" placeholder="Title" id="form-title">
+            <textarea id="form-body" placeholder="Body"></textarea>
+            <button type="button" class="cancel">Cancel</button>
+            <button type="submit" id='add-note'>Edit Note</button>
+        </form>
+    </div>
+    <h2 class="note-title"></h2>
+    <article class="note-body"></article>
+  </div>
+
+
+
+    <hr class="hr-line">
+    <footer class="footer">
+    <h2>Stay connected</h2>
+    <p>Join my mailing list.</p>
+    <form>
+        <p><input type="text" placeholder="First name"></p>
+        <p><input type="text" placeholder="Email"></p>
+        <p><input type="submit" value="Submit"></p>
+    </form>
+    <p>&copy; 2020. Wejapa Noteapp. No Rights Reserved.</p>
+    </footer>
+  <script src="/note.js"></script>
+</body>
+</html>
